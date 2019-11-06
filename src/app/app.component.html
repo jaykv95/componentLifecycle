@@ -1,0 +1,7 @@
+<!-- <router-outlet></router-outlet> -->
+<h3>Test</h3>
+<app-login *ngIf="isChange"></app-login>
+
+<app-sign-up *ngIf="!isChange"></app-sign-up>
+
+<button (click)="onComponentChange(isChange)">Change component</button>
